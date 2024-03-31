@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #5da324;
+    color: #50001f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card1 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #e70a0a;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.user-card2 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #0a0ee7;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.user-card3 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #11e70a;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.user-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.user-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
