@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #080808;
+    color: #f2f3ee; ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.employee-card {
+    width: 300px;
+    border: 2px solid #0f1849;
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.employee-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f80505;
+    color: #fbfbfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 10px 0;
+}
