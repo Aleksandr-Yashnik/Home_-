@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+  }
+  
+  .counter {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin: 50px;
+    
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+  }
+  
