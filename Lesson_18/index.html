@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothes Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Clothes Store</h1>
+  </header>
+  <main>
+    <div class="filters">
+      <label for="genderSelect">Gender:</label>
+      <select id="genderSelect">
+        <option value="all">All</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+      </select>
+      <label for="productSelect">Choose product:</label>
+      <select id="productSelect">
+        <option value="all">All</option>
+        <option value="jeans">Jeans</option>
+        <option value="t-shirt">T-shirt</option>
+        <option value="jacket">Jacket</option>
+        <option value="sweater">Sweater</option>
+      </select>
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="products" class="product-container"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Clothes Store. All rights reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
