@@ -116,7 +116,7 @@ const products = [
     name: "Sweater for Women",
     image: "./img/Men/Sweater_men_1.jpg",
     price: "$40",
-    gender: "women",
+    gender: "men",
     status: "in stock",
   },
   {
@@ -124,7 +124,7 @@ const products = [
     name: "Sweater for Women",
     image: "./img/Men/Sweater_men_2.jpg",
     price: "$40",
-    gender: "women",
+    gender: "men",
     status: "in stock",
   },
 ];
